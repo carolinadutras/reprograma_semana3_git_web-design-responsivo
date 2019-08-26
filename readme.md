@@ -1,0 +1,2 @@
+<h1> Teste para primeiro repositório de git e git hub </h1>
+<p> Teste escrevendo descrição do repositório pelo vs code, abri o arquivo pela linha de comando do git dash, mudei . code e abri a pasta com um arquivo pelo vs code (markdown) </p>
