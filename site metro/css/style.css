@@ -10,46 +10,59 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .img-linhas{
 background-image: url("../img/linhas-bg.png");
 width: 1400px;
 height: 221px;
-margin-top: 50px;
+margin-top: 8px;
 background-size: 70%;
 background-repeat: no-repeat;
+
 }
 
 .logo_nav {
     width:200px;
     padding-left: 100px;
     margin-left: 30px;  
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: center
     
 }
 .titulo{
-    font-size: 50px;
-    margin-right: 90px;
+    font-size: 56px;
+    margin-right: 96px;
+    font-style: inherit;
 }
 .row{
     display: flex;
     max-width: 1280px;
+    margin: 0 auto;
 }
 
+.colum{
+    width: 50%;
+}
 .colum ol>li >a {
   
     color: #ffffff;    
 }
-.colum{
-    width: 50%;
-}
 .colum>ol>li{
     color: #ffffff;
 }
+.news__text, .news__link{
+    max-width: 450px;
+    font-style: italic;
+    /* margin-top: 0; */
+    font-size: 16px;
+}
+
 .footer{
-    font-size: 10px;
+    font-size: 8px;
     display: flex;
     justify-content: flex-end;
-}
+    padding-left: 350px;
+    padding-bottom: 30px;
+    }
